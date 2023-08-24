@@ -1,26 +1,28 @@
-# SpaceSnake
+ # SnakeSpace  🐍✈️
 Instalar o Broker Mosquitto https://mosquitto.org/
-<br>
-### Inicializar O Mosquitto
+
+## Configurações no Windows 🪟🪟
+> ⚠️ HELPPPP!!!!! <br>
+> No documento mosquito.conf alterar na **linha 236** `listener 1883. 0.0.0.0`
+
+### Inicializar O Mosquitto 🦟⏰
 Novo prompt
 <br> `cd..`
 <br> `cd..`
 <br> `C:"local que foi baixado o mosquitto"` 
-<br><sub>_C:\Program Files (x86)\mosquitto"_</sub> 
-<br> `mosquitto -v`
+<br>`C:\Program Files (x86)\mosquitto>mosquitto -v -c "C:\Program Files (x86)\mosquitto>mosquitto.conf"`
 <br>
-### Mosquitto Sub
+### Mosquitto Sub 🦟🙆
 Novo prompt
 <br> `cd..`
 <br> `cd..`
-<br> `C:"local que foi baixado o mosquitto"`
-<br><sub>_C:\Program Files (x86)\mosquitto"_</sub> 
+<br> `C:"C:\Program Files (x86)\mosquitto"`
 <br> `mosquitto_sub -h localhost -p 1883 -t "exemplo"`
 <br>
-### Mosquitto Pub
+### Mosquitto Pub 🦟✍️
 Novo prompt
 <br> `cd..`
 <br> `cd..`
-<br> `C:"local que foi baixado o mosquitto"`
-<br><sub>_C:\Program Files (x86)\mosquitto"_</sub> 
+<br> `"C:\Program Files (x86)\mosquitto"`
 <br> `mosquitto_pub -h localhost -p 1883 -t "exemplo" -m "outro exemplo"`
+
