@@ -13,7 +13,8 @@ Novo prompt
 <br>`cd "C:\Program Files (x86)\mosquitto"`
 <br>`cd "C:\Program Files (x86)\mosquitto>mosquitto -v -c "C:\Program Files (x86)\mosquitto>mosquitto.conf"`
 
-<br>
+<br
+ 
 ### Mosquitto Sub 🦟🙆
 Novo prompt
 <br> `cd..`
@@ -21,6 +22,7 @@ Novo prompt
 <br> `cd "C:"C:\Program Files (x86)\mosquitto"`
 <br> `mosquitto_sub -h localhost -p 1883 -t "exemplo"`
 <br>
+
 ### Mosquitto Pub 🦟✍️
 Novo prompt
 <br> `cd..`
