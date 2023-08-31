@@ -19,10 +19,9 @@ https://github.com/flaviostutz/mosquitto/blob/master/config/mosquitto.conf.examp
 > Copiar o exemplo do .conf e colar no arquivo <br>
 > Para poder inserir no vi, tecla **`i`**. Para salvar e sair, dar **`esc :x`**
 
-ps aux | grep mosquitto
-
-Mata o processo que está usando o mosquitto.conf: 
-kill 2810 (o número pode mudar)
+<br>`ps aux | grep mosquitto` <br>
+<sub> Mata o processo que está usando o mosquitto.conf: 
+**kill 2810** (o número pode mudar)
 
 
 
@@ -32,13 +31,13 @@ kill 2810 (o número pode mudar)
 
 
 ### Executar mosquito:
-`# mosquitto -v -c /etc/mosquitto/mosquitto.conf`
+#mosquitto -v -c /etc/mosquitto/mosquitto.conf
 
 ### Teste para verificar se está executando:
-- `# netstat -at`
-- `# netstat -ntlp`
+- #netstat -at
+- #netstat -ntlp
+- #netstat -ntlp
 
-netstat -ntlp
-Proto Recv-Q Send-Q Endereço Local          Endereço Remoto         Estado       PID/Program name    
-tcp        0      0 0.0.0.0:1883            0.0.0.0:*               OUÇA       -                   
-
+|Proto |Recv-Q Send-Q | Endereço Local | Endereço Remoto |  Estado  |  PID/Program name  |  
+|------|--------------|----------------|-----------------|----------|--------------------|
+| tcp  |       0      |0 0.0.0.0:1883  |    0.0.0.0:*    |   OUÇA   |          -         |
