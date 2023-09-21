@@ -9,13 +9,10 @@
 <br>` listener 1883`
 
 ### Cadastro de usuario e senha:
-'mosquitto_passwd -c senha user'
+-` mosquitto_passwd -c senha user` 
 
-### Teste para verificar se está executando:
-- `netstat -at`
-- `netstat -ntlp`
-- `netstat -ntlp`
+### Adicionar novo usuario:
+- `mosquitto_passwd -b senha teste 123`
 
-|Proto |Recv-Q Send-Q | Endereço Local | Endereço Remoto |  Estado  |  PID/Program name  |  
-|------|--------------|----------------|-----------------|----------|--------------------|
-| tcp  |       0      |0 0.0.0.0:1883  |    0.0.0.0:*    |   OUÇA   |          -         |
+### 
+
