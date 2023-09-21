@@ -9,7 +9,7 @@
 <br>` listener 1883`
 
 ### Cadastro de usuario e senha:
--` mosquitto_passwd -c senha user` 
+- ` mosquitto_passwd -c senha user` 
 
 ### Adicionar novo usuario:
 - `mosquitto_passwd -b senha teste 123`
