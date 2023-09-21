@@ -1,7 +1,7 @@
 # SnakeSpace  🐍✈️
 ### Configurações para acesso sem senha: 
 <br>` allow_anonymous true`
-<br> listener 1883 0.0.0.0`
+<br>` listener 1883 0.0.0.0`
 
 ### Configurações para acesso com senha:
 ` password-file senha`
