@@ -4,9 +4,9 @@
 <br>` listener 1883 0.0.0.0`
 
 ### Configurações para acesso com senha:
-` password-file senha`
-` allow_anonymous false`
-` listener 1883`
+<br>` password-file senha`
+<br>` allow_anonymous false`
+<br>` listener 1883`
 
 ### Cadastro de usuario e senha:
 'mosquitto_passwd -c senha user'
