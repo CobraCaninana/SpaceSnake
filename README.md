@@ -29,7 +29,8 @@ Novo prompt
 <br> `cd "C:"C:\Program Files (x86)\mosquitto"`
 <br> `mosquitto_pub -h localhost -p 1883 -t "exemplo" -m "outro exemplo"`
 
-
+<br>
+<br>
 
 ## Configurações no Linux 
 - `sudo su`
