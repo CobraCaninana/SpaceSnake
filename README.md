@@ -29,7 +29,9 @@ Novo prompt
 <br> `cd "C:"C:\Program Files (x86)\mosquitto"`
 <br> `mosquitto_pub -h localhost -p 1883 -t "exemplo" -m "outro exemplo"`
 
-## Configurações no Linux 🪟🪟
+
+
+## Configurações no Linux 
 - `sudo su`
 - `apt-get update`
 * `apt-get install mosquitto`
