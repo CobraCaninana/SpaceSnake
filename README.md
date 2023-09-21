@@ -57,12 +57,6 @@ https://github.com/flaviostutz/mosquitto/blob/master/config/mosquitto.conf.examp
 **kill 2810** (o número pode mudar)
 
 
-
-### Parâmetros de configuração ajustados:
- ` listener 1883 0.0.0.0`
-
-
-
 ### Executar mosquito:
 `mosquitto -v -c /etc/mosquitto/mosquitto.conf`
 
