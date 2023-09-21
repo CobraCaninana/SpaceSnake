@@ -31,12 +31,12 @@ https://github.com/flaviostutz/mosquitto/blob/master/config/mosquitto.conf.examp
 
 
 ### Executar mosquito:
-#mosquitto -v -c /etc/mosquitto/mosquitto.conf
+`mosquitto -v -c /etc/mosquitto/mosquitto.conf`
 
 ### Teste para verificar se está executando:
-- #netstat -at
-- #netstat -ntlp
-- #netstat -ntlp
+- `netstat -at`
+- `netstat -ntlp`
+- `netstat -ntlp`
 
 |Proto |Recv-Q Send-Q | Endereço Local | Endereço Remoto |  Estado  |  PID/Program name  |  
 |------|--------------|----------------|-----------------|----------|--------------------|
