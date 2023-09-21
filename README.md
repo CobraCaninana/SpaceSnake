@@ -3,7 +3,7 @@ Instalar o Broker Mosquitto https://mosquitto.org/
 
 ## Configurações no Windows 🪟🪟
 >⚠️ ATTENTION!!!!! <br>
->![imagem](https://github.com/CobraCaninana/SpaceSnake/blob/main/imagen.jpeg)<br>
+>![imagem](coisasa/imagen.jpeg)<br>
 > No documento mosquito.conf alterar para `allow_anonymous true` `listener 1883. 0.0.0.0`
 
 ### Inicializar O Mosquitto 🦟⏰
