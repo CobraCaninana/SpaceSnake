@@ -1,12 +1,13 @@
 ## Assinar Os Tópicos Usando O Mosquitto via Terminal 🦟💻✍️
 
 ### Mosquitto_sub
-+ `-i` ID do Cliente. Se este parâmetro não for passado, o ID do Cliente será gerado automaticamente;
-+ `-t`Nome do tópico a ser assinado;
++ `-h` IP do servidor;
++ `-p` Porta do servidor;
 + `-d` Permite a impressão de mensagens de depuração;
-+ `-h` Alterar o host;
-+ `-p` Alterar a porta;
-+ `-u` `-p` Autenticação para conexção, expecificando senha e usuario.
++ `-t` Nome do topico que vai se increver para receber as mensagem ;
++ `-i` Nome visivel do computador;
++ `-u` Nome do usuario;
++ `-P` Senha do usuario.
 
 <br>⚠️Exemplo de aplicação🤯
 <br>
@@ -15,3 +16,19 @@
 <br>`mosquitto_sub -i mosq_bub1 -t "Teste" -u <username> -p <password> -d`
 
 ### Mosquitto_pub
++ `-h` IP do servidor (localhost);
++ `-p` Porta do servidor;
++ `-t` Nome do topico que vai publicar a mensagem;
++ `-m` Mensagem a ser enviada;
++ `-i` A mensagem será enviada para todos os inscritos com exeção de .....;
++ `-u` Nome do usuario;
++ `-P` Senha do usuario.
+
+### Servidor
++ `-v` começa a rodar;
++ `-c` caminho para o arquivo de configuração.
+
+### LINKS 
+
++ https://cedalo.com/blog/how-to-install-mosquitto-mqtt-broker-on-windows/
++ https://mosquitto.org/documentation/authentication-methods/
