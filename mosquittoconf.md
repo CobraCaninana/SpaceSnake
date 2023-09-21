@@ -1,15 +1,15 @@
 # SnakeSpace  🐍✈️
-### Instalaçao: 
+### Configurações para acesso sem senha: 
+` allow_anonymous true`
+` listener 1883 0.0.0.0`
 
+### Configurações para acesso com senha:
+` password-file senha`
+` allow_anonymous false`
+` listener 1883`
 
-
-### Parâmetros de configuração ajustados:
- ` listener 1883 0.0.0.0`
-
-
-
-### Executar mosquito:
-`mosquitto -v -c /etc/mosquitto/mosquitto.conf`
+### Cadastro de usuario e senha:
+'mosquitto_passwd -c senha user'
 
 ### Teste para verificar se está executando:
 - `netstat -at`
