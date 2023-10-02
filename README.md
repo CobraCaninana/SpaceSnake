@@ -31,6 +31,7 @@ Novo prompt
 
 ### Mosquitto Pub e Sub com senha
 <br> `mosquitto_sub -h localhost -p 1883 -t "exemplo" -u user -P 123456`
+<br>
 <br> `mosquitto_pub -h localhost -p 1883 -t "exemplo" -m "outro exemplo" -u user -P 123456`
 
 ## Configurações no Linux 
