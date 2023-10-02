@@ -4,7 +4,7 @@
 <br>` listener 1883 0.0.0.0`
 
 ### Configurações para acesso com senha:
-<br>` password-file senha`
+<br>` password_file senha`
 <br>` allow_anonymous false`
 <br>` listener 1883`
 
