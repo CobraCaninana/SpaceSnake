@@ -29,8 +29,9 @@ Novo prompt
 <br> `cd "C:"C:\Program Files (x86)\mosquitto"`
 <br> `mosquitto_pub -h localhost -p 1883 -t "exemplo" -m "outro exemplo"`
 
-<br>
-<br>
+### Mosquitto Pub e Sub com senha
+<br> `mosquitto_sub -h localhost -p 1883 -t "exemplo" -u user -P 123456
+<br> `mosquitto_pub -h localhost -p 1883 -t "exemplo" -m "outro exemplo" -u user -P 123456`
 
 ## Configurações no Linux 
 - `sudo su`
