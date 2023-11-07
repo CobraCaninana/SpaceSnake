@@ -11,9 +11,9 @@
 
 <br>⚠️Exemplo de aplicação🤯
 <br>
-<br>`mosquitto_sub -i mosq_bub1 -t "Teste" -h localhost -p 1884 -d` 
+<br>`mosquitto_sub -i mosq_bub1 -t "Teste" -h localhost -P 1884 -d` 
 <br>
-<br>`mosquitto_sub -i mosq_bub1 -t "Teste" -u <username> -p <password> -d`
+<br>`mosquitto_sub -i mosq_bub1 -t "Teste" -u <username> -P <password> -d`
 
 ### Mosquitto_pub
 + `-h` IP do servidor (localhost);
