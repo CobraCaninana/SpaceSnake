@@ -52,8 +52,7 @@ void loop() {
   float altitude = bmp.readAltitude(1013.25);
 
   // Envie os dados lidos para o tópico MQTT
-  String mensagem = "Temperatura: " + String(temperatura) + " *C, Pressao: "
-  + String(pressao) + " hPa, Altitude: " + String(altitude) + " metros";
+  String mensagem = String(temperatura) + " "+ String(pressao) + " " + String(altitude);
   client.publish("tem", mensagem.c_str());
 
   delay(250);  // Intervalo entre envios de mensagens
@@ -70,4 +69,12 @@ void reconnect() {
       delay(1000);
     }
   }
+}void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
 }
