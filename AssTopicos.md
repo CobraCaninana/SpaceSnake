@@ -4,7 +4,7 @@
 + `-h` IP do servidor;
 + `-p` Porta do servidor;
 + `-d` Permite a impressão de mensagens de depuração;
-+ `-t` Nome do topico que vai se increver para receber as mensagem ;
++ `-t` Nome do topico que vai se inscrever para receber as mensagem ;
 + `-i` Nome visivel do computador;
 + `-u` Nome do usuario;
 + `-P` Senha do usuario.
