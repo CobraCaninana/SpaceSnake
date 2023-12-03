@@ -1,0 +1,144 @@
+/*  Cores do documento 
+Base: #2A3380
+#4D5BB7
+#3A0E73
+#0B0C21
+#525A7F
+#CDDFF8
+
+
+*/
+
+@font-face {
+    font-family: Smile;
+    src: url('../Fontes/The\ Smile.otf');
+}
+
+@font-face {
+    font-family: Amarillo;
+    src: url('../Fontes/Amarillo.ttf');
+}
+
+@font-face {
+    font-family: Muthiara;
+    src: url('../Fontes/Muthiara\ demo\ version.otf');
+}
+
+@font-face {
+    font-family: Saturday;
+    src: url('../Fontes/Saturday.ttf');
+}
+
+@font-face {
+    font-family: Joseph;
+    src: url('../Fontes/josephsophia.ttf');
+}
+
+body {
+    background-color: #282b6b;
+}
+
+.inicial {
+    background-image: linear-gradient(#000114, #282b6b);
+}
+
+.titulo h1 {
+    font-family: Saturday;
+    text-align: center;
+    color: white;
+    font-size: 700%;
+    padding: 10%;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 100px;
+    position: sticky;
+}
+
+.btn {
+    border: 2px white solid;
+    color: white;
+    margin-left: 950%;
+    border-radius: 20%;
+}
+
+.btn:hover {
+    background-color: #4b50a5;
+    border-color: #0B0C21;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #CDDFF8;
+}
+
+.monitoramento h1,
+.col2 h1 {
+    color: #CDDFF8;
+    margin-left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.monitoramento {
+    background-image: linear-gradient( #282b6b, #040625, #000114);
+    padding: 5%;
+}
+
+.col {
+    color: white;
+}
+
+.dados {
+    background-image: linear-gradient( #000114, #040625, #282b6b);
+}
+
+.nuvem {
+    width: 90%;
+    height: 90%;
+}
+
+
+/* personalizar a barra em geral, aqui estou definindo 9px de largura para a barra vertical
+e 4px de altura para a barra horizontal */
+
+::-webkit-scrollbar {
+    width: 9px;
+    height: 4px;
+}
+
+
+/* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo azul claro*/
+
+ ::-webkit-scrollbar-track {
+    background: #282b6b;
+}
+
+
+/* aqui é a alça da barra, que demonstra a altura que você está na página
+estou colocando um  verde  nela*/
+
+ ::-webkit-scrollbar-thumb {
+    background: #0B0C21;
+}
+
+.col2 {
+    padding-top: 5%;
+}
+
+.col2 p {
+    color: white;
+    text-align: left;
+}
+
+.start {
+    background-color: #02031f;
+    color: white;
+    border: white 2px solid;
+    border-radius: 30%;
+    padding: 2%;
+}
+
+.start:hover {
+    background-color: #282b6b;
+}
